@@ -33,5 +33,16 @@ git checkout [commit-ref] -- [filename] // restore a file to a version from a pr
 
 git rm --cached -r . // Clear the current Staging Area. Used after git add. Before git commit.
 
+// Remote repo setup
 git remote add origin https://github.com/MyGoodFriend/Story.git // add remote repository to git instance
 git push -u origin master // commit local repo to remote repo
+
+git push // Use this to push changes after the initial remote repo setup
+
+git clone [git_url] // download a project from a public git repo.
+// you can use git log to see the downloaded projects previous commits
+
+// branching
+git branch [branch-name]   // create a new branch.
+git branch // see the branches, * next to the branch you're currently on.
+git checkout [branch-name] // switch to a different branch.
