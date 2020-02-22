@@ -1,9 +1,9 @@
-git init - initialize a git repository inside current directory
+git init // initialize a git repository inside current directory
 
-git status - shows the current staging area
-git add - add file to staging area // ex. ( git add . ) 
-git commit -m "text" - commit with a message
-git log - show past commits
+git status // shows the current staging area
+git add // add file to staging area // ex. ( git add . ) 
+git commit -m "text" // commit with a message
+git log // show past commits
 
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
@@ -25,3 +25,5 @@ Local Repostory
 	
 git diff FileName - see the differences between the current file and the master file.
 
+git checkout [commit-ref] -- [filename] // restore a file to a version from a previous commit using [commit-ref].
+// append a ~1 to [commit-ref] ( [commit-ref]~1) if you want to restore to a commit before the commit reference hash
