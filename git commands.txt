@@ -22,8 +22,14 @@ Staging Area
 	Allows you to figure out which files to ignore and which to track.
 Local Repostory
 	Commit the files to the repostitory.
+Remote Repository
+	remote git repos
 	
-git diff FileName - see the differences between the current file and the master file.
+git diff FileName - see the differences between a modified file and the master file.
+git checkout [filename] // BEFORE A FILE IS COMMITTED, replace the current version of a file with the version from the last time it was committed.
 
 git checkout [commit-ref] -- [filename] // restore a file to a version from a previous commit using [commit-ref].
 // append a ~1 to [commit-ref] ( [commit-ref]~1) if you want to restore to a commit before the commit reference hash
+
+git rm --cached -r . // Clear the current Staging Area. Used after git add. Before git commit.
+
