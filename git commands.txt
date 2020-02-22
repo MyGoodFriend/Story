@@ -35,5 +35,3 @@ git rm --cached -r . // Clear the current Staging Area. Used after git add. Befo
 
 git remote add origin https://github.com/MyGoodFriend/Story.git // add remote repository to git instance
 git push -u origin master // commit local repo to remote repo
-s
-
