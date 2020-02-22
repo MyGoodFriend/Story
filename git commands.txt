@@ -1,5 +1,5 @@
 git status - shows the current staging area
-git add - add file to staging area
+git add - add file to staging area // ex. ( git add . ) 
 git commit -m "text" - commit with a message
 git log - show past commits
 
