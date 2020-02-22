@@ -1,0 +1,15 @@
+git status - shows the current staging area
+git add - add file to staging area
+git commit -m "text" - commit with a message
+git log - show past commits
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --global user.name - display current username
+git config --global user.email - display current email
+// using --global is only needed if you want to setup a username/email that will automatcally be assigned to every new git repo.
+
+// To use a unique name
+git config user.name "name"
+git config user.email "email"
+
