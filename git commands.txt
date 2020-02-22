@@ -1,3 +1,5 @@
+git init - initialize a git repository inside current directory
+
 git status - shows the current staging area
 git add - add file to staging area // ex. ( git add . ) 
 git commit -m "text" - commit with a message
@@ -12,4 +14,14 @@ git config --global user.email - display current email
 // To use a unique name
 git config user.name "name"
 git config user.email "email"
+
+Working Directory
+	Initialize the git repository.
+	Git tracks the changes between working directory and local repository.
+Staging Area
+	Allows you to figure out which files to ignore and which to track.
+Local Repostory
+	Commit the files to the repostitory.
+	
+git diff FileName - see the differences between the current file and the master file.
 
